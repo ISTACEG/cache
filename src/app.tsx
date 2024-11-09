@@ -87,6 +87,7 @@ export function App() {
                       {/* @ts-ignore */}
                       {publication?.highlight && (
                         <p class="animate-pulse inline-flex absolute items-center justify-center text-xs font-bold text-white bg-red-500 rounded-full z-10 -top-4 right-0 px-3 py-1">
+                      {/* @ts-ignore */}
                           {publication.highlight}
                         </p>
                       )}
