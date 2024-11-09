@@ -2,6 +2,7 @@ import publications from "./publications";
 import instances from "./instances";
 import Logo from "./assets/ista_transparent_logo.webp";
 import { useEffect, useState } from "preact/hooks";
+import { Analytics } from "@vercel/analytics/react"
 
 export function App() {
   // Retrieve active tab from URL or default to "publications"
@@ -22,6 +23,7 @@ export function App() {
     <>
       {localStorage.getItem('notFirstTime') !== '1' ? <Intro /> : null}
       <Header />
+      <Analytics />
       <div class="font-Azonix container mx-auto p-4">
         <div class="flex justify-center space-x-4">
           <button
