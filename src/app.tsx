@@ -52,7 +52,8 @@ export function App() {
                     console.log(publication);
                     return (
                       <div key={publication.name} class="max-w-sm rounded-lg shadow-2xl m-2 relative">
-                        {publication.highlight && <p class="animate-pulse absolute inline-flex items-center justify-center text-xs font-bold text-white bg-red-500 rounded z-10 -top-2 p-1 -end-4">{publication.highlight}</p>}
+                         {/* @ts-ignore */}
+                        {publication?.highlight && <p class="animate-pulse absolute inline-flex items-center justify-center text-xs font-bold text-white bg-red-500 rounded z-10 -top-2 p-1 -end-4">{publication.highlight}</p>}
                          {/* @ts-ignore */}
                         <div class="_df_thumb df-book-cover m-0 w-100 img" id="flipbook_example" resource={publication.file} thumb={publication.cover}></div>
                         <div class="p-2">
