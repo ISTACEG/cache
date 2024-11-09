@@ -4,7 +4,6 @@ export default [
     "date": "2024-02-14T00:00:00.000+05:30",
     "file": "/publications/Cache_Feb_2024.pdf",
     "cover": "/publications/Cache_Feb_2024.webp",
-    "highlight": "New",
   },
   {
     "name": "Cache Dec 2021",
