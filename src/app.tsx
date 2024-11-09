@@ -158,18 +158,17 @@ function Footer() {
   );
 }
 
-const setCookie = (name, value, minutes) => {
+const setCookie = (name: string, value: string, minutes: number): void => {
   const expires = new Date(Date.now() + minutes * 60 * 1000).toUTCString();
   document.cookie = `${name}=${value}; expires=${expires}; path=/`;
 };
 
-const getCookie = (name) => {
+const getCookie = (name: string): string | null => {
   const value = `; ${document.cookie}`;
   const parts = value.split(`; ${name}=`);
-  if (parts.length === 2) return parts.pop().split(";").shift();
+  if (parts.length === 2) return parts.pop()?.split(";").shift() || null;
   return null;
 };
-
 
 function Intro() {
   const [visible, setVisible] = useState(true);
