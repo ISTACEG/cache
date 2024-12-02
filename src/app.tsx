@@ -7,7 +7,7 @@ import "./index.css"
 
 export function App() {
   const urlParams = new URLSearchParams(window.location.search);
-  const initialTab = urlParams.get("tab") || "publications";
+  const initialTab = urlParams.get("tab") || "instances";
   const [activeTab, setActiveTab] = useState(initialTab);
 
   const years = [
