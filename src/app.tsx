@@ -45,21 +45,19 @@ export function App() {
         <div class="flex justify-center font-Azonix space-x-6 mb-8">
           <button
             onClick={() => setActiveTab("publications")}
-            class={`px-6 py-3 font-bold text-lg ${
-              activeTab === "publications"
+            class={`px-6 py-3 font-bold text-lg ${activeTab === "publications"
                 ? "text-white shadow-lg bg-gray-800"
                 : "text-gray-500"
-            } rounded-xl transition-colors duration-300`}
+              } rounded-xl transition-colors duration-300`}
           >
             Cache
           </button>
           <button
             onClick={() => setActiveTab("instances")}
-            class={`px-6 py-3 font-bold text-lg ${
-              activeTab === "instances"
+            class={`px-6 py-3 font-bold text-lg ${activeTab === "instances"
                 ? "text-white shadow-lg bg-gray-800"
                 : "text-gray-500"
-            } rounded-xl transition-colors duration-300`}
+              } rounded-xl transition-colors duration-300`}
           >
             InsTaNces
           </button>
@@ -82,12 +80,13 @@ export function App() {
                   .map((publication) => (
                     <div
                       key={publication.name}
+                      style={{padding: 8}}
                       class="max-w-sm rounded-1xl text-black relative shadow-2xl m-4 bg-white bg-opacity-80 hover:bg-opacity-90 transition-all duration-300"
                     >
                       {/* @ts-ignore */}
                       {publication?.highlight && (
-                        <p class="animate-pulse inline-flex absolute items-center justify-center text-xs font-bold text-white bg-red-500 rounded-full z-10 -top-4 right-0 px-3 py-1">
-                      {/* @ts-ignore */}
+                        <p className="animate-bounce inline-flex absolute items-center justify-center text-sm font-extrabold text-white bg-gradient-to-r from-pink-500 via-yellow-500 to-orange-500 rounded-full z-10 top-0 px-4 py-2 shadow-lg transform transition-all hover:scale-105 hover:rotate-3">
+                          {/* @ts-ignore */}
                           {publication.highlight}
                         </p>
                       )}
