@@ -1,7 +1,7 @@
 export default [
     {
-      "name": "Instance October 2024",
-      "date": "2024-10-01T00:00:00.000+05:30",
+      "name": "Instance January 2025",
+      "date": "2025-02-17T00:00:00.000+05:30",
       "file": "/instances/instance_jan_2025.pdf",
       "cover": "/instances/instance_jan_2025.png",
       "highlight":"Latest !"
