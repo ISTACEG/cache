@@ -1,7 +1,7 @@
 export default [
   {
-    "name": "Instance Febrary Edition - 2025",
-    "date": "2025-03-01T00:00:00.000+05:30",
+    "name": "Instance \n Febrary Edition - 2025",
+    "date": "2025-03-12T00:00:00.000+05:30",
     "file": "/instances/instance_feb_2025.pdf",
     "cover": "/instances/instance_feb_2025.png",
     "highlight":"Fresh!"
