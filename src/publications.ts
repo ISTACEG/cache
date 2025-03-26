@@ -1,5 +1,11 @@
 export default [
   {
+    "name": "Cache Mar 2025",
+    "date": "2024-02-14T00:00:00.000+05:30",
+    "file": "/publications/Cache_Mar_2025.pdf",
+    "cover": "/publications/Cache_Mar_2025.webp",
+  },
+  {
     "name": "Cache Feb 2024",
     "date": "2024-02-14T00:00:00.000+05:30",
     "file": "/publications/Cache_Feb_2024.pdf",
