@@ -3,7 +3,7 @@ export default [
     "name": "Cache Mar 2025",
     "date": "2025-03-23T00:00:00.000+05:30",
     "file": "/publications/Cache_Mar_2025.pdf",
-    "cover": "/publications/Cache_Mar_2025.webp",
+    "cover": "/publications/Cache_Mar_2025.png",
     "highlight":"Latest!"
   },
   {
