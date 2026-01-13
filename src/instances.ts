@@ -1,11 +1,5 @@
 export default [
-  {
-      "name": "Instance October 2025",
-      "date": "2025-11-12T00:00:00.000+05:30",
-      "file": "/instances/instance_oct_2025.pdf",
-      "cover": "/instances/instance_oct_2025.jpg",
-    "highlight":"Fresh!"
-    },
+  
   {
     "name": "Instance Febrary 2025",
     "date": "2025-03-12T00:00:00.000+05:30",
@@ -30,7 +24,7 @@ export default [
       "date": "2024-10-01T00:00:00.000+05:30",
       "file": "/instances/instance_oct_2024.pdf",
       "cover": "/instances/instance_oct_2024.webp",
-    },
+    }
   
   
   ]
