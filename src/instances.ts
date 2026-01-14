@@ -30,4 +30,5 @@ export default [
     file: "/instances/instance_oct_2024.pdf",
     cover: "/instances/instance_oct_2024.webp",
   },
+  
 ];
