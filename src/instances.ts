@@ -1,11 +1,20 @@
 export default [
+  
+  {
+    name: "Instance October 2025",
+    date: "2025-11-01T00:00:00.000+05:30",
+    file: "/instances/instance_jan_2026.pdf",
+    cover: "/instances/instance_jan_2026.webp",
+    highlight: "Fresh!",
+  },
   {
     name: "Instance October 2025",
     date: "2025-11-01T00:00:00.000+05:30",
     file: "/instances/instance_oct_2025.pdf",
     cover: "/instances/instance_oct_2025.webp",
-    highlight: "Fresh!",
+   ]
   },
+
   {
     name: "Instance September 2025",
     date: "2025-11-01T00:00:00.000+05:30",
