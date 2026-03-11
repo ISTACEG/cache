@@ -12,7 +12,7 @@ export default [
     date: "2025-11-01T00:00:00.000+05:30",
     file: "/instances/instance_oct_2025.pdf",
     cover: "/instances/instance_oct_2025.webp",
-   ]
+   
   },
 
   {
